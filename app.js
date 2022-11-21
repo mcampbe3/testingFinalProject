@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, "stylesheets")));
 app.set("stylesheets", "./stylesheets");
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("index.html");
 });
 
 app.get("/prevWork", (req, res) => {
