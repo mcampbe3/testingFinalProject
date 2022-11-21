@@ -16,17 +16,17 @@ app.get("/", (req, res) => {
   res.render("index.html");
 });
 
-app.get("/prevWork", (req, res) => {
-  res.render("prevWork");
-});
+// app.get("/prevWork", (req, res) => {
+//   res.render("prevWork");
+// });
 
-app.get("/projects", (req, res) => {
-  res.render("projects");
-});
+// app.get("/projects", (req, res) => {
+//   res.render("projects");
+// });
 
-app.get("/contact", (req, res) => {
-  res.render("contact");
-});
+// app.get("/contact", (req, res) => {
+//   res.render("contact");
+// });
 
 app.listen(8080, () => {
   console.log("http://localhost:8080/");
