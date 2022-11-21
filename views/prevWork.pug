@@ -1,0 +1,103 @@
+include navbar.pug
+
+main(class="container")
+  div(class="mainContent")
+    h1 Professional Experience
+    div
+      div(class="bg-light rounded")
+        h3 Education
+        h4 M.S. Computer Science, Portland State University, Portland, OR
+        p(class="dates") September 2021 - Present
+        ul
+          li Anticipated in March 2023
+        br
+        h4 B.S. Computer and Information Science, University of Oregon, Eugene, OR
+        p(class="dates") September 2017 - March 2021
+        ul
+          li Minor in Mathematics
+      div(class="bg-light rounded")
+        h3 Employment History
+        h4 Software Engineering Graduate Intern at The Aerospace Corporation, El Segundo
+        p(class="dates") June 2022 - September 2022
+        ul
+          li Automated various capabilities of an electro-optical telescope
+          ul
+            li Created a website to schedule and track satellites and sidereals
+          li Ran various MLPerf benchmarks to show the efficiency of various high-performance computing systems
+        br
+        h4 Software Engineering Graduate Intern at The Aerospace Corporation, El Segundo
+        p(class="dates") June 2021 - September 2021
+        ul
+          li Researched/Prototyped caching and CORS management in CA API gateway
+          li Researched the capabilities of CA API Gateway, Tyk's API Gateway, Kong's API Gateway, and Apigee Edge Microgateway
+          li Deployed and used Litmus Chaos (Chaos engineering) on an application
+          ul
+            li Deployed Litmus Chaos on CodeReady containers and ran chaos experiments
+        br
+        h4 Software Engineering Intern at The Aerospace Corporation, El Segundo
+        p(class="dates") June 2020 - September 2020
+        ul
+          li Researched/Prototyped XACML support of various API gateways
+          ul
+            li Investigated/Prototyped XACML support in CA Technology’s Policy Manager and Kong's API Gateway
+          li Researched topics pertinent to running various databases on Kubernetes
+          li Transferred a Fast Digital Video Broadcasting Satellite Signal Processor from hardware to Amazon Web Services
+          ul
+            li Analyzed various EC2 instances to find the most efficient solution 
+        br
+        h4 Undergraduate Learning Assistant at University of Oregon, Eugene, OR
+        p(class="dates") October 2019 - December 2019 
+        ul
+          li Assisted lower-division Computer Science students in learning C and Unix during weekly office hours
+        br
+        h4 Software Engineering Intern at The Aerospace Corporation, El Segundo
+        p(class="dates") June 2019 - September 2019
+        ul
+          li Built a data processing application framework prototype on the cloud
+          ul
+            li Data flowed from HBase and Kafka to Nifi and Tableau
+          li Researched the significant functionalities of Tyk and CA API Gateways
+        br
+        h4 Undergraduate Learning Assistant at University of Oregon, Eugene, OR
+        p(class="dates") January 2019 - June 2019
+        ul
+          li Hosted weekly office hours to support lower-division Computer Science students in learning Python
+
+    div(class="bg-light rounded")
+      h3 Skills 
+      div(class="row")
+        div(class="col-6")
+          ul(id="skills")
+            li Adobe Photoshop/Lightroom
+            li AWS EC2 Instances
+            li Apache Drill
+            li Apache Kafka
+            li API Gateways
+            li C
+            li C++
+            li CA API Gateway
+            li Docker
+            li Google Cloud Platform
+            li HBase
+            li HTML/CSS
+            li Java
+        div(class="col-6")
+          ul(id="skills")
+            li Kubernetes
+            li Linux OS
+            li Litmus Chaos
+            li MacOS
+            li OpenShift/CodeReady Containers
+            li Putty
+            li Python
+            li SQL
+            li Tableau
+            li Unix
+            li VirtualBox
+            li Visual Studio
+            li Windows Subsystem for Linux
+    div(class="text-center")
+      button(class="btn btn-primary btn-lg")
+        a(id="resume" href="resume.pdf" download="MikaylaCampbellResume.pdf") Download Resume
+    br
+    br

@@ -1,0 +1,111 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --lightgray: #ffffffbf;
+  --medgray: #ffffff8c;
+  --darkgray: #343a40;
+}
+
+.mainContent {
+  display: block;
+  margin: auto;
+  font-size: 18px;
+  width: 75%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+h2.notForm {
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  border-bottom: solid var(--darkgray) 1px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  border-bottom: solid var(--darkgray) 1px;
+}
+
+.projName {
+  font-style: italic;
+  text-decoration: none;
+  color: var(--black);
+}
+
+p {
+  margin-top: 0px;
+}
+
+.logo,
+.btn-primary {
+  margin-right: 10px;
+}
+
+.navbar-brand a {
+  color: var(--white);
+}
+
+.navbar-brand a:hover {
+  color: var(--lightgray);
+}
+
+li a.nav-link:hover {
+  border-bottom: solid var(--lightgray) 1px;
+}
+
+#navLast {
+  padding-right: 50px;
+}
+
+.bg-light {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dates {
+  font-style: italic;
+}
+
+#skills {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#education {
+  border-left: solid var(--darkgray) 1px;
+}
+
+#resume {
+  text-decoration: none;
+  color: var(--white);
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .navbar-brand a {
+    padding-left: 50px;
+  }
+
+  button.navbar-toggler {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand a {
+    padding-left: 20px;
+  }
+
+  button.navbar-toggler {
+    margin-right: 20px;
+  }
+
+  li.nav-item {
+    margin-left: 20px;
+  }
+}
